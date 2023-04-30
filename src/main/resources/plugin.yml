@@ -1,7 +1,7 @@
 name: AbstractCooldown
 main: ru.abstractcoder.abstractcooldown.AbstractCooldownPlugin
-author: AbstractCoder
-version: 1.0
+author: AbstractCoder, Rozipp
+version: 1.1
 website: http://abstractcoder.ru
 description: Многофункциональный плагин на кулдауны для команд.
 softdepend: [Vault]

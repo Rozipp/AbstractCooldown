@@ -22,6 +22,7 @@ public class AbstractCooldownPlugin extends JavaPlugin {
         MainConfig mainConfig = new MainConfig(this, processableCommandFactory);
         LanguageConfig languageConfig = new LanguageConfig(this);
         cmf = new CooldownManagementFacade(this, mainConfig, languageConfig);
+
         Permission permission = null;
         if (mainConfig.isUsingVault() && pluginManager.isPluginEnabled("Vault")) {
             RegisteredServiceProvider<Permission> permissionProvider = getServer().getServicesManager().getRegistration(Permission.class);
